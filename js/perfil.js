@@ -1,8 +1,8 @@
-function openModal() {
+function openProfileModal() {
     document.getElementById('profileModal').style.display = "block";
 }
 
-function closeModal() {
+function closeProfileModal() {
     document.getElementById('profileModal').style.display = "none";
 }
 
@@ -12,7 +12,7 @@ function guardarPerfil() {
         document.getElementById('profileText').innerText = profileText;
         localStorage.setItem('profile', profileText); // Almacenar en localStorage
     }
-    closeModal();
+    closeProfileModal();
 }
 
 window.onload = function() {

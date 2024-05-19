@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/perfil.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+    <title>Proyecto HTML</title>
+</head>
+<body>
+
+    <!-- PERFIL PROFESIONAL  -->
+    <div class="container" id="profileContainer">
+        <h1>Perfil</h1>
+        <p id="profileText"></p>
+        <img src="https://img.icons8.com/material-outlined/24/000000/edit.png" alt="Editar" class="icon" onclick="openModal()">
+    </div>
+    
+    <div id="profileModal" class="profileModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <label for="profile">Perfil</label>
+            <input type="text" id="profile" name="profile" class="textbox">
+            <div class="profilemodal-footer">
+                <button class="btn" onclick="guardarPerfil()">Guardar</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <button class="vistaPreviaBtn" id="vistaPreviaBtn"><a href="/page2.html">Ver Vista Previa</a></button>
+
+<script src="/js/perfil.js"></script>
+
+</body>
+</html>

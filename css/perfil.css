@@ -1,0 +1,74 @@
+.container {
+    width: 900px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 20px;
+    position: relative;
+    margin: 20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.profileModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 800px;
+    overflow: auto;
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+    padding: 20px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-footer {
+    margin-top: 20px;
+    text-align: center;
+}
+.textbox {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+.perfil {
+    margin-top: 20px;
+}
